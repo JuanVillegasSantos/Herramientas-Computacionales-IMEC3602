@@ -1,0 +1,25 @@
+#Crea función para mantener orden
+
+def randcoor(N):
+	xcoor=np.random.rand(N)
+	ycoor=np.random.rand(N)
+	return xcoor,ycoor
+#Ahora crea las coordenadas en x, y utilizando esta función
+
+radio=1
+Ncor=10
+xc,yc=randcoor(Ncor)
+ptsDentro=(xc**2+yc**2-radio**2)<=0
+dentro=sum(ptsDentro)
+Proba=dentro/Ncor #Me calcula la probabilidad de que estén dentro para Ncor puntos
+
+#Ahora construyo la gráfica de probabilidades
+Ndatos=logspace(1,8,8)
+pis[]
+for n in Ndatos:
+	pi_calc=pi_estad(int(n))
+	pis.append(pi_estad(n))
+
+plt.semilogx(Ndatos,pis)
+plt.ylabel('Prob(N)-$\pi/4$)
+plt.xlabel('Número de Datos')
