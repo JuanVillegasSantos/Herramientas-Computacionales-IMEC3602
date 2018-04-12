@@ -4,6 +4,8 @@ El proyecto para este curso se propone sea el de escribir un programa que permit
 
 En resumen, el programa a construir debe simular un encoder.
 
+![Sensor](sensor.png)
+
 ## Parámetros:
 
 Al programa propuesto le deben ingresar como parámetro la señal de voltaje vs tiempo generada por el sensor descrito. esta señal tiene el siguiente comportamiento:
