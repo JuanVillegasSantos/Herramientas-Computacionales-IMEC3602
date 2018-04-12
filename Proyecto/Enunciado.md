@@ -15,4 +15,10 @@ Con fines ilustrativos solamente, a continuación se presenta el diagrama de con
 ## Parámetros:
 
 Al programa propuesto le deben ingresar como parámetro la señal de voltaje vs tiempo generada por el sensor descrito. esta señal tiene el siguiente comportamiento:
-![Sensor](https://github.com/JuanVillegasSantos/Herramientas-Computacionales-IMEC3602/blob/master/Proyecto/diag.Conexion.jpeg)
+![Sensor](https://github.com/JuanVillegasSantos/Herramientas-Computacionales-IMEC3602/blob/master/Proyecto/signal.JPG)
+
+Note que, debido a la naturaleza física del fenómeno, la frecuencia de esta señal irá cambiando cada cierta temporalidad desconocida.
+
+## Variables de salida:
+
+La salida de este programa se requiere que sea la gráfica de velocidad angular (RPM) en función del tiempo.
