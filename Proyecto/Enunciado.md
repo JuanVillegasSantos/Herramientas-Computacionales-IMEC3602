@@ -4,7 +4,7 @@ El proyecto para este curso se propone sea el de escribir un programa que permit
 
 En resumen, el programa a construir debe simular un encoder.
 
-![Sensor](sensor.png)
+![Sensor](https://github.com/JuanVillegasSantos/Herramientas-Computacionales-IMEC3602/blob/master/Proyecto/Sensor.png)
 
 ## Parámetros:
 
