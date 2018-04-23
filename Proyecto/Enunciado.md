@@ -7,7 +7,7 @@ En resumen, el programa a construir debe simular un encoder.
 ## Acerca del sensor:
 
 El sensor a trabajar es un sensor óptico Omron modelo E3FB-TN11-L el cual es de tipo laser para su medición, con un alcance máximo de 20m. A continuación se muestra como está el montaje de este sensor para la medición de velocidad angular:
-![Sensor](https://github.com/JuanVillegasSantos/Herramientas-Computacionales-IMEC3602/blob/master/Proyecto/Sensor.png)
+![Sensor](https://github.com/JuanVillegasSantos/Herramientas-Computacionales-IMEC3602/blob/master/Proyecto/Sensor.png=24x48)
 
 Con fines ilustrativos solamente, a continuación se presenta el diagrama de conexión del sensor óptico. La adquisición de los datos se realiza mediante el software LabView.
 ![Sensor](https://github.com/JuanVillegasSantos/Herramientas-Computacionales-IMEC3602/blob/master/Proyecto/diag.Conexion.jpeg)
