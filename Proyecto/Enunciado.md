@@ -2,13 +2,17 @@
 
 El proyecto para este curso se propone sea el de escribir un programa que permita corregir la velocidad angular en RPM adquirida de la señal de PWM de una hélice  a partir de la señal de voltaje generada por un sensor óptico tipo laser que apunta a una de las aspas de esta hélice en partícular.
 
-El programa debe adqirir automáticamente los archivo de texto resultantes de cada medición (Habrá mínimo 3 mediciones con sus respectivos archivos en cada carpeta) conteniendo los datos de Empuje, Torque, Velocidad angular PWM y señal de voltaje contra tiepo del sensor optico. El programa debe calcular la curva que mejor ajuste los valores de velocidad angular contra tiempo y debe arrojar las gráficas de Empuje vs RPM, Torque vs RPM y Potencia Mecánica vs RPM con susrespectivas tendencias y sus barras de errores asociados. 
+El programa debe adqirir automáticamente los archivo de texto resultantes de cada medición (Habrá mínimo 3 mediciones con sus respectivos archivos en cada carpeta) conteniendo los datos de Empuje, Torque, Velocidad angular PWM y señal de voltaje contra tiepo del sensor optico. El programa debe arrojar las gráficas de Empuje vs RPM, Torque vs RPM y Potencia Mecánica vs RPM con susrespectivas tendencias y sus barras de errores asociados. (Se debe tener cuidado con la temporalidad de cada archivo, cada uno de estos contiene un registro del tiempo que registra el computador al guardar cada dato y este se usará como criterio para determinar la temporalidad del análisis)
 
-Se propone probar por lo menos 3 diferentes algoritmos de tipo MCP para realizar el ajuste de de velocidad angular necesario y calcular sus respectivos indicadores de error, se propone comparar 3 indicadores: 
+Adicional a esto, se debe realizar un ajuste a la curva de Potencia vs RPM, asumiendo 2 tipos de curvas de ajuste:
 
-*Error RMS
-*Error de Sesgo medio
-*Indice de Kolmogorov Smagorinski
+* P=C$\omega^k$
+
+para realizar el ajuste de de velocidad angular necesario y calcular sus respectivos indicadores de error, se propone comparar 3 indicadores: 
+
+* Error RMS
+* Error de Sesgo medio
+* Indice de Kolmogorov Smagorinski
 
 Finalmente se requiere analizar cual es el método más eficaz para realizar el ajuste propuesto
 
