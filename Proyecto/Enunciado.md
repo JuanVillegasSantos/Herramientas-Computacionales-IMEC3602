@@ -5,6 +5,7 @@ El proyecto para este curso se propone sea el de escribir un programa que permit
 El programa debe adqirir automáticamente los archivo de texto resultantes de cada medición (Habrá mínimo 3 mediciones con sus respectivos archivos en cada carpeta) conteniendo los datos de Empuje, Torque, Velocidad angular PWM y señal de voltaje contra tiepo del sensor optico. El programa debe calcular la curva que mejor ajuste los valores de velocidad angular contra tiempo y debe arrojar las gráficas de Empuje vs RPM, Torque vs RPM y Potencia Mecánica vs RPM con susrespectivas tendencias y sus barras de errores asociados. 
 
 Se propone probar por lo menos 3 diferentes algoritmos de tipo MCP para realizar el ajuste de de velocidad angular necesario y calcular sus respectivos indicadores de error, se propone comparar 3 indicadores: 
+
 *Error RMS
 *Error de Sesgo medio
 *Indice de Kolmogorov Smagorinski
